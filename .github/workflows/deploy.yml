@@ -22,7 +22,7 @@ jobs:
           script: |
             set -e
 
-            cd ~/Djangocloud9
+            cd ~/cicd_practical2
 
             git fetch origin main
             git reset --hard origin/main
