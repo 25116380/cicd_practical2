@@ -22,7 +22,7 @@ jobs:
           script: |
             set -e
 
-            cd ~/cicd_practical2
+            cd /home/ec2-user
 
             git fetch origin main
             git reset --hard origin/main
